@@ -1,1 +1,2 @@
-# -Client-Script-UI-Policy
+# Implement Client Script & UI Policy (Incident)
+This project implements ServiceNow Incident controls using one UI Policy and three Client Scripts to improve data quality and user safety. When Impact is set to High, Assignment group becomes mandatory, Urgency becomes read-only, and Urgency is automatically set to High. The onSubmit script prevents saving high-impact Incidents without an Assigned To user, while the onCellEdit script prevents direct State changes from the Incident list and allows updates through the form. The project reduces incomplete records, improves Incident routing and ownership, and provides immediate user feedback. 
